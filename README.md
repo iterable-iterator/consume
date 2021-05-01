@@ -4,10 +4,6 @@
 Iterable consumption for JavaScript.
 See [docs](https://iterable-iterator.github.io/consume/index.html).
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
-
 ```js
 import {exhaust} from '@iterable-iterator/consume';
 import {map} from '@iterable-iterator/map';

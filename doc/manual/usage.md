@@ -1,19 +1,8 @@
 # Usage
 
-> :warning: Depending on your environment, the code may require
-> `regeneratorRuntime` to be defined, for instance by importing
-> [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
-
-First, require the polyfill at the entry point of your application
+Import the library where needed
 ```js
-require( 'regenerator-runtime/runtime' ) ;
+const {consume, exhaust} = require( '@iterable-iterator/consume' ) ;
 // or
-import 'regenerator-runtime/runtime.js' ;
-```
-
-Then, import the library where needed
-```js
-const consume = require( '@iterable-iterator/consume' ) ;
-// or
-import * as consume from '@iterable-iterator/consume' ;
+import {consume, exhaust} from '@iterable-iterator/consume' ;
 ```

@@ -10,6 +10,6 @@
  *
  */
 export default function exhaust(iterator) {
-	// eslint-disable-next-line no-empty,no-unused-vars,prettier/prettier
-	for (const item of iterator) {}
+	// eslint-disable-next-line no-empty
+	while (!iterator.next().done) {}
 }
