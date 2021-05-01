@@ -1,2 +1,2 @@
-const answer = 42;
-export default answer;
+export {default as consume} from './consume.js';
+export {default as exhaust} from './exhaust.js';

@@ -4,12 +4,16 @@
 Iterable consumption for JavaScript.
 See [docs](https://iterable-iterator.github.io/consume/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
 > :warning: Depending on your environment, the code may require
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+
+```js
+import {exhaust} from '@iterable-iterator/consume';
+import {map} from '@iterable-iterator/map';
+import {range} from '@iterable-iterator/range';
+exhaust(map((i) => {console.log(i)}, range(10))); // 0 1 2 ...
+```
 
 [![License](https://img.shields.io/github/license/iterable-iterator/consume.svg)](https://raw.githubusercontent.com/iterable-iterator/consume/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/consume.svg)](https://www.npmjs.org/package/@iterable-iterator/consume)
