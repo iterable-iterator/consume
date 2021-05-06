@@ -1257,10 +1257,10 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/list/-/list-0.0.2.tgz#6289761d3ada6bb88f0c92683367ea960f310869"
   integrity sha512-103Wwqx0x8neIFjm0GVR7cmEcv29Eg7F4lX72sr9L6FzMH9lp50ejfroAdbdMT37TWq2KVNo1eEWXtFo9hBybw==
 
-"@iterable-iterator/next@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-1.0.0.tgz#6e66e6c2423e390ac806bfdc778b918d05c866f5"
-  integrity sha512-ml0SPDbw9N3S8++yx/Gqd0o9CuY4sPUUGlhJMhCQC2sSL6RpXmNaBLvGhCJTckelSzyaTVpe/yUlS/iwJNwxnQ==
+"@iterable-iterator/next@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-1.0.1.tgz#ed7fb7b6bf44c3bd77dd01e2c5a0a03830b9142c"
+  integrity sha512-igrAA2O3qCGHQbEjktXeiYxopq5RvaNhzooivyuq7vmE1U2tRmMyP8e5+LaNbrVLZH1jGWcWIATsNo8Q3D/I5w==
   dependencies:
     "@failure-abstraction/error" "^5.0.5"
 
