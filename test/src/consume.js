@@ -1,11 +1,12 @@
 import test from 'ava';
 
+import {iter} from '@iterable-iterator/iter';
 import {range} from '@iterable-iterator/range';
 import {list} from '@iterable-iterator/list';
 import {consume} from '../../src/index.js';
 
 test('consume', (t) => {
-	const iterator = range(100);
+	const iterator = iter(range(100));
 
 	consume(iterator, 37);
 
