@@ -2,7 +2,7 @@
 
 Import the library where needed
 ```js
-const {consume, exhaust} = require( '@iterable-iterator/consume' ) ;
+const {consume, exhaust} = await import( '@iterable-iterator/consume' ) ;
 // or
 import {consume, exhaust} from '@iterable-iterator/consume' ;
 ```
