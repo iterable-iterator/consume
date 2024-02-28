@@ -1,8 +1,9 @@
 import test from 'ava';
 
 import {iter} from '@iterable-iterator/iter';
-import {range} from '@iterable-iterator/range';
 import {list} from '@iterable-iterator/list';
+import {range} from '@iterable-iterator/range';
+
 import {consume} from '#module';
 
 test('consume', (t) => {
