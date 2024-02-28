@@ -4,7 +4,7 @@ import {iter} from '@iterable-iterator/iter';
 import {next} from '@iterable-iterator/next';
 import {range} from '@iterable-iterator/range';
 import {list} from '@iterable-iterator/list';
-import {exhaust} from '../../src/index.js';
+import {exhaust} from '#module';
 
 test('exhaust', (t) => {
 	const iterator = iter(range(0, 100, 1));
