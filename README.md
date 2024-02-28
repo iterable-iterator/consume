@@ -13,7 +13,7 @@ exhaust(map((i) => {console.log(i)}, range(10))); // 0 1 2 ...
 
 [![License](https://img.shields.io/github/license/iterable-iterator/consume.svg)](https://raw.githubusercontent.com/iterable-iterator/consume/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/consume.svg)](https://www.npmjs.org/package/@iterable-iterator/consume)
-[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/consume/ci:test?event=push&label=tests)](https://github.com/iterable-iterator/consume/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/consume/ci:cover?event=push&label=tests)](https://github.com/iterable-iterator/consume/actions/workflows/ci:cover.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/consume.svg)](https://github.com/iterable-iterator/consume/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/consume.svg)](https://github.com/iterable-iterator/consume/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/consume.svg)](https://www.npmjs.org/package/@iterable-iterator/consume)
